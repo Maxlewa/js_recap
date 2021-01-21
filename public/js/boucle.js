@@ -89,12 +89,12 @@
 
 // EXO 3
 
-let tab = ["maxence", "louise", "jamila", "natchez"]
+// let tab = ["maxence", "louise", "jamila", "natchez"]
 
-tab.forEach(el => {
-    if (tab.indexOf(el) % 2 == 0 && el.length > 4) {
-        console.log(el.charAt(0).toUpperCase()+el.slice(1));
-    }
-});
+// tab.forEach(el => {
+//     if (tab.indexOf(el) % 2 == 0 && el.length > 4) {
+//         console.log(el.charAt(0).toUpperCase()+el.slice(1));
+//     }
+// });
 
 
