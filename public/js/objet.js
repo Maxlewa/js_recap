@@ -49,4 +49,39 @@ console.log(article);
 
 // EXO 3
 
+let molengeek = {
+    nEmployes: 0,
+    patron: {
+        nom: "Jefe",
+        prenom: "El",
+    },
+    employe: [],
+    addEmploye(x) {
+        if (this.employe.indexOf(x) > -1) {
+            console.log(`l'employé existe déjà`);
+        } else {
+            this.employe.push(x)
+            this.nEmployes++
+        }
+    },
+    delEmploye(x) {
+        if (this.employe.indexOf(x) > -1) {
+            this.employe.splice(x, 1);
+            this.nEmployes--
+        } else {
+            console.log("cet employé n'éxiste pas");
+        }
+    },
+    felicitations() {
+        let rando = Math.floor(Math.random()*this.employe.length);
+        console.log(rando);
+        console.log(`${this.employe[rando]} est l'employé du mois`);
+    }
+}
+molengeek.addEmploye("jeff");
+molengeek.addEmploye("louise");
+molengeek.addEmploye("alex");
+molengeek.addEmploye("maxence");
+molengeek.felicitations();
 
+console.log(molengeek);
