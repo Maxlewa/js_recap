@@ -67,10 +67,48 @@
 
 // EXO 3
 
-let moinsMoyenne = []
-let moyenne = []
-let plusMoyenne = []
+// let moinsMoyenne = []
+// let moyenne = []
+// let plusMoyenne = []
 
-let user = (prenom, salaire) => {
+// let user = (prenom, salaire) => {
+//     if (salaire < 1600) {
+//         moinsMoyenne.push(prenom)
+//     } else if (1600 < salaire && salaire < 1800) {
+//         moyenne.push(prenom)
+//     } else if (salaire > 1800) {
+//         plusMoyenne.push(prenom)
+//     }
+// }
 
-}
+// user("ayoub", 1400)
+
+// console.log(moinsMoyenne);
+// console.log(moyenne);
+// console.log(plusMoyenne);
+
+// EXO 4
+
+// let concert = []
+// let dehors = []
+
+// let fonction = (prenom, age) => {
+//     if (age >= 18) {
+//         concert.push(prenom.charAt(0).toUpperCase()+prenom.slice(1))
+//     } else {
+//         dehors.push(prenom.charAt(0).toUpperCase()+prenom.slice(1))
+//     }
+// }
+
+// fonction("alex", 23)
+// fonction("ludivine", 14)
+// fonction("jamila", 25)
+// fonction("abdellah", 27)
+// fonction("momo", 44)
+// fonction("dawid", 35)
+// fonction("tristan", 20)
+// fonction("tom", 18)
+// fonction("tim", 17)
+
+// console.log(concert);
+// console.log(dehors);
