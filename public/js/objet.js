@@ -69,7 +69,7 @@ let molengeek = {
             this.employe.splice(x, 1);
             this.nEmployes--
         } else {
-            console.log("cet employé n'éxiste pas");
+            console.log("cet employé n'existe pas");
         }
     },
     felicitations() {
@@ -85,3 +85,46 @@ molengeek.addEmploye("maxence");
 molengeek.felicitations();
 
 console.log(molengeek);
+
+// EXO 4
+
+let perso = {
+    identite : {
+        nom : "Musk",
+        prenom : "Elon",
+    },
+    argent : 0,
+    lieu : "Bruxelles",
+    humeur : "good",
+    humeurChange() {
+        let rando = Math.floor(Math.random() * 2)
+        switch (rando) {
+            case 0:
+                this.humeur = "not good";
+                break;
+            case 1:
+                this.humeur = "très good";
+                break;
+        
+            default:
+                break;
+        }
+    }
+}
+
+let lieuChange = () => {
+    switch (x.lieu) {
+        case "Bruxelles":
+            x.lieu = "le travail"
+            break;
+        case "le travail":
+            x.lieu = "Bruxelles"
+            break;
+        default:
+            break;
+    }
+}
+
+let argentPlus = () => {
+
+}
